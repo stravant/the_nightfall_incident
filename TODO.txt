@@ -1,0 +1,18 @@
+
+* Fix Grow command
+
+* Add sounds for grow / zero / one / self-damage
+
+* Update large screen UI
+
+* Revisit node icons later, especially the codes one, just can't seem to find a good way to do it.
+
+* Celular Automa node needs something in the middle to cover up where the node connections meet. Maybe it's okay if I make the node connection dot bigger to cover the junction up with that, can't think of a nice way to edit the CA node image. -> Chris will try redrawing some of the icons.
+
+* Add a security level display somewhere maybe.
+
+* Setup should display an error when loading fails 
+
+Current:
+
+Add node statistics

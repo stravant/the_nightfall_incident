@@ -1,0 +1,417 @@
+
+Opening Scroll:
+As a smart agent, your job is to hunt down crime and problems throughout the net.
+Use the arrows to scroll around the netmap. Click a node to examine it. Fight databattles against corporate security software to gain control over nodes and open up more areas of the map to explore. Winning databattles earns you credits that you can use to purchase new programs.
+
+        
+             PH15                            WZ3     PH35 -- PH36*           PD48
+              |                               |       |                       |
+WZ1  CA14*-- CA13 -- LM21 -- PH29 ---------- LM33 -- PD34            PD46 -- PD47 -- PH49
+ |            |                                                       |
+HQ -- PH11 ---|                       ------ PD32 ---------- PD310   PH45 -- End
+ |            |                       |                    \          |
+LM12         PH16            DR25 -- DR28 -- DR31 -- LM39   `CA311   PD44
+ |                            |               |    \           |      |
+ ------------------- LM22 -- CA24 -- LM26    DR37    DR38    CA312   DR42 -- LM43
+                       |               |               |              |
+                     CA23 -- WZ2     LM27*              \----------- LM41 -- WZ4
+
+
+CA13 
+CA14*
+CA23
+CA24
+CA311
+CA312
+
+DR25
+DR28
+DR31
+DR37
+DR38
+DR42
+
+End
+HQ 
+
+LM12
+LM21 
+LM22
+LM26
+LM27*
+LM33 
+LM39
+LM41
+LM43
+
+
+PD310
+PD32
+PD34 
+PD44
+PD46 
+PD47 
+PD48 
+
+PH11
+PH15 
+PH16
+PH29 
+PH35 
+PH36* 
+PH45
+PH49
+
+WZ1 
+WZ2
+WZ3
+WZ4
+
+Superphreak   -- Aeacus
+Spinner       -- Vexedly
+Wintermutant  -- Minish
+Disarray         -- Dignity
+Joana Boaventura -- Are92
+
+
+
+
+LM12 smart uses this as a test mission. defeat to proceed.
+PH11 infected
+CA13 infected
+CA14 contains the level 2 access codes. Capture to access level 2.
+PH15 offered this mission in exchange for a new piece of software
+PH16 infected
+
+LM22 security bug locking down internal network
+LM27 contains level 3 access codes
+DR28 one of the nodes that Wintermutant mentioned
+DR37 3500 credits + 800
+LM39 - The big wall around codes doesn't move
+
+Hidden attacks:
+DARKSTORM (0) (ATTACK)
+FLASHGROW (0) (GROW)
+OVERCLOCK (0) (SIZEMOD)
+CRUNCHTIME (0) (ATTACK)
+
+Warez node level 1:
+500: Hack | Move 2 Max 4 | Slice - Damage 2
+750: Bug | Move 5 Max 1 | Glitch - Damage 2
+750: Slingshot | Move 2 Max 2 | Stone - Range 3, Damage 2
+500: Data Doctor | Move 4 Max 5 | Grow - +2 size
+250: Bit-Man | Move 3 Max 3 | Zero / One
+
+Warez node level 2:
+1500: Hack 2.0 | Move 3 Max 4 | Slice - Damage 2, Dice (3) - Damage 3
+1200: Golem.mud | Move 1 Max 5 | Thump - Damage 3
+750: Wolf Spider | Move 3 Max 3 | Byte - Damage 2
+1000: Seeker | Move 3 Max 3 | Peek - Range 2, Damage 2
+1000: Tower | Move 0 Max 1 | Spot - Range 3, Damage 3
+1000: Medic | Move 3 Max 3 | Hypo - Range 3, +2 size
+1000: Turbo | Move 3 Max 3 | Boost - +1 move, -1 self
+
+Warez node level 3:
+
+
+Warez node level 4:
+5000: Golem.stone | Move 3 Max 7 | Crash - Damage 7
+3500: Tarantula | Move 5 Max 3 | Megabyte - Damage 3, Paralyze - Reduce move by 3
+4000: HeisenBug | Move 5 Max 1 | Quantum Glitch 
+
+Extra software:
+Clog.01 | Move 2 Max 4 | Lag - Range 3 Reduce move by 1
+Wizard | Move 3 Size 4 | Scorch - Range 3 Damage 2, Strech - Range 2 +1 max target
+Memory Hog | Move 5 Max 30 | ---
+
+Pup | Move 3 Max 2 | Byte - Damage 2
+Guard Dog | Move 3 Max 3 | Kilobyte - Damage 2
+Attack Dog | Move 4 Max 7 | Megabyte - Damage 3 
+Sentinel | Move 1 Max 3 | Cut - Damage 2
+Sentinel 2.0 | Move 2 Max 4 | Cut - Damage 2
+Sentinel 3.0 | Move 2 Max 4 | Tazer - Damage 4
+Watchman | Move 1 Max 2 | Phaser - Range 2 Damage 2
+Watchman X | Move 1 Max 4 | Phaser - Range 2 Damage 2
+Watchman SP | Move 1 Max 4 | Photon - Range 3 Damage 2
+Warden | Move 1 Max 5 | Thump - Damage 3
+Warden+ | Move 2 Max 6 | Bash - Damage 5
+Warden++ | Move 3 Max 7 | Crash - Damage 7
+Sensor | Move 0 Max 1 | Blip - Range 5 Damage 1
+Sonar | Move 0 Max 1 | Ping - Range 8 Damage 1
+Firewall | Move 2 Max 20 | Burn - Damage 1
+Sumo | Move 2 Max 12 | Dataslam (6) - Damage 8
+Boss
+
+Click an an upload zone to begin
+Select one of your programs to upload to this zone
+
+
+Start new game:
+Superphreak: Hey. Welcome to smart. You must be the newbie I'm supposed to train.
+Newbie? / Yeah -> Great. I hope you're a fast learner, cause I have more important things to do than hold your hand all day.
+Go on -> As a smart agent, you're here to fix problems and battle infocrime. You can find out more at the smart HQ node.
+What's a node? / I'll be sure to check that out. -> What you're looking at now is the netmap, it shows you all the network nodes and the connections between them.
+Go on / so what should I do with them? -> You can click ona node to have your spybot set up a link to that computer. Once you're inside you'll need to databattle with that node's defensive programs. By the way, right now your security level is one, so you can only access level one nodes.
+goat it -> Good. Time to get down to action. I'm going to walk you through your first databattle and give you some tips. Ready to get the party started?
+Wait. Can you go over all that again? -> 
+I'm ready. -> Welcome to your first databattle. Here you programs duke it out with the enemy programs for control of a node.
+Tell me more -> First you have to upload your programs. Start by clicking on this upload spot.
+[Click] -> Now click on this program to upload it.
+[Click] -> Now click the next upload spot.
+[Click] -> Now upload this program.
+[Click] -> Alright. Let's get this battle started.
+[Click begin] -> All of your programs move and execute commands first, and then all of the enemy programs get their chance.
+Next -> First click on this program to select it.
+[Hack] -> The highlighted grid squares show how far this program can move. Before we move it, let's see what it can do. Hack is a simple battle program with only one command. Click on the command to see what it does.
+[Slice] -> The red squares show you the range for this command. This program has to move next to an enemy program to attack, so let's move it first. Click on undo to cancel the command.
+[Undo] -> Now click on this square to move the program.
+[Click] -> When a program moves through memory, it expands. Each square of a program is called a sector. The max size shows how much a program will expand as it moves. When a program reaches its max size, it can still movebut the older sectors will disappear.
+Next -> We're still out of range. Click this square to move the program again.
+[Click] -> Okay, now that we're next to the program, let's use the attack command. Click the command button.
+[Slice] -> To execute an attack command, click on any sector of an enemy program that is within range. Click here to execute this command.
+[Click] -> Nice. Now, let's move our other program, click here to select it.
+[Slingshot] -> Move the program closer to your target.
+[Move] -> Slingshot is a ranged attack program. I think we're in range now. Click on the command to activate it.
+[Stone] -> Good. Now click on the enemy program to execute the command.
+[Attack] -> Way to go. You just won your first databattle.
+Next -> Of course, most databattles won't be as easy as this one. You'll need to pick up more powerful programs from warez nodes on the network. Some advanced programs have more than one command. Special programs can be used to increas ethe power of your own programs or even change the grid.
+Next -> Ok, those are the basics. Do you want me to go over it again? When you get back to the netmap, you'll be on your own. Click a node and see what you can find out there. Good luck!
+Done.
+
+
+Beat node L11:
+Spinner: Hey Pal. I see that you've been doing some sweet code slinging. Was wondering if you were interested in some extra business.
+What Kind of Business -> A little side business in data policing. It turns out that pharmhause was testing some new security and it went haywire. They can't even access their network.
+What do I get -> Well, Pharmhause is offering a nice shiny piece of software for someone to quietly access their node and disable teh security system. What do you think?
+Sure, I'll do it -> Great, I knew you were the agent for the job! I'm putting the node up on your netmap now.
+Ready to recieve net data -> Get node
+
+Beat node L12:
+Disarray: Are you the newbie? I saw you beat the test run.
+No sweat -> Fellow smart agent on patrol. I was just executing some elite hacks in security level two. Where are you headed next?
+Just hacking through level one -> Cool. You'll definitely want to grab some better programs. Have you checked out the warez node? I'll show you where it is. Later.
+Later -> X
+
+Beat node L13:
+Superphreak: Hey. Not bad ___ ___ so far ___ you're almost ____ ready for level two ____ access.
+Thanks -> Hmm __ something __ ____ wierd's going on. I think I __ breaking up. __ look, you've got ___ get the access codes. We've put __ program there ___ help ___ out.
+What's wrong -> Superphreak: You ___ can find ____ ____ ___ _ ____ ___
+Superphreak? Hello? -> Superphreak: ____ ___ ___  ___ __ > BRK
+Where do I find the codes? -> ?
+
+Beat node L15:
+Spinner: Hey, knew I could count on you! Pharmhaus is reporting everything all clear. Here's the software they promised
+Ready to recieve software transfer -> Clog.01
+
+Beat node PH16:
+Superphreak: Newbie, are you reading me?
+Sure go ahead -> Great. I have some information for __ __ __
+You're breaking up -> ____ ___ __  ____
+
+Beat node CA14:
+Superphreak __ __ __ __ Hold on __ __ TRying to connect ___
+Superphreak? -> Yeah, I'm back. I see you got the access codes. I'll think I have time to uprade your status and show you a new warez node before I get cut off again.
+Why did you get cut off before? -> Someone's been screwing around with Smart. Some kind of corrupt program got loose in our network and I got cut off. For a second, I thought it was 12AM out here
+12am? -> 12am = midnight. That's what we call a total network blackout. No access for anybody. It happened once a while ago during the worldwide power crisis. You wouldn't believe how bad it got before the network game back online.
+Got it -> Anyways, someone directly sabotaged smart and it's crippling our agents. But it's not affecting you because we haven't put your info into the smart system yet.
+Who's responsible for this? -> I'm not sure yet, I'm going to keep looking into it. But with all of us popping in and out, I guess that leaves you as the only functional agent.
+Great -> I ran a trace on the problem that led back to the lucky monkey eastern distribution site. Somebody must have sent the corrupt program from there.
+Okay -> I guess you should see if you can pick up the local records. I'll get back to you when I can.
+Ready for the security upgrade -> X, warez node highlighted
+
+Beat node LM22:
+Wintermutant: Hey dude, sorry to interrupt an elite smart angent like yourself. Is it okay if we chat for a second.
+Um, who are you? -> Oh, I'm sort of a hacker too. I mean, I'd like to be one. I hope you don't mind tat I've been checking out your radical runs. Taking care of the DR Donut problems?
+What DR Donut problems? -> I guess that's way beneath your radar. Some hacker screwed around with their systems and now they're all buggy.
+Could you tell me where the node is / give me the info about the node -> Sure, I'll send it to you right away, I know I've got it around here somewhere, hang on a sec...
+I'm waiting / take your time... -> Got it! I'm uploading the node on to your netmap now. Kewl talkin to you. CuL8R.
+
+Beat node CA23:
+Superphreak: Hey newbie. Still working on getting smart on its feet. What are you up to?
+Do you know Wintermutant? -> He's a good kid. By the way, that node up there is network city. And there are a couple more warez nodes hidden out on the net.
+Nice -> And while you're looking at software, don't just load up on attack programs. You should check out some meta programs like metic and turbo. There may come a time when you need to boost up your hack to handle an _____ enemy. ___ oops gotta go.
+
+Beat node CA24:
+Joana Boaventura: Hello, Agent. I suppose I should thank you for assisting my company.
+All in a day's work -> We have a problem with one of our nodes
+What's in it for me? -> An experimental piece of software, along with whatever credits you can find during the mission
+What isthe mission -> Use a backdoor through the ped feduciary node to access our sysadmin archives. The archives node lock down after an aborted crash attempt, and we needa file from there immediately.
+Sure thing / Let me think about it -> I'm adding the archives node to your netmap. I'll contact you when you are in the vicinity of the node.
+
+Beat node LM26:
+Wintermutant: Hey dude. It's me again.
+Hey Winter / What's up? -> Kewl Battle! Hey, I was lookin over some of the nodes you've been through and I found something funny. Whoever did the dack job through pharmhaus left somethin behind.
+Left what behind? -> Some kind of wierd program. I couldn't get a good luck at it cause it disappeared before I could catch it.
+Where was it from -> I'm not sure. Maybe the same hacker that's been corrupting these nodes. I saw a link to something called nightfall. I'll keep checking the logs and see if I can find anything else.
+Thanks a lot / you do that.
+
+Beat node DR25:
+Disarray: Still up out there?
+Hey Disarray, how about you? / Still here -> Of course I'm still online. Nothing this puny is going to take a hacker of my skills down. Anyway, I'e been digging around and I found something. Do you have time to check it out?
+I don't know, what is it? / Sure -> Smart has a special program that would really help with the crashing and all. To get it running I need a couple of files that are hidden in some corporate nodes around here, two nodes to be exact.
+What's the program? -> Network software, it's complicated. Anyway, the program is encrypted, so I'm going to need a lot of time to decipher it. Can you shut down security so I can get in there and concentrate on the real work?
+Sure thing / let me think about it -> Okay. You can get to the nodes through this one. They're all level three, so you'll need to get the access code for that level first.
+Got it -> I'll load the first node onto your map now. Hack that to access the nodes that contain the program. I'll catch up with you when you've taken care of the security. Later newbie.
+
+Beat node DR28:
+Superphreak: Ok, I'm finally back on the net. Hey, news on the smart bug.
+Go for it -> Looks like it must have been an inside job. Just happened too quickly. The hacker had the passwords.
+Do you have any idea who's responsible? / So what do we do? -> A couple ideas, but nothing definite. I'll keep woring on it. Still, as the only smart angent left, you'll have to handle the net problems.
+Actually, another agent wrote me / what about disarray -> Hold on, Smart's down. Who was the agent?
+His name was disarray -> If you're talking about who I think you are, that's bad news. I was training an agent named disarray a couple of months ago. He got thrown out for being the reckless and greedy loser that he is. Don't trust a word he says.
+What do we do about him / he asked me to do a mission -> __ __ __ don't have a lot of time left. I'll start tracing disarray. Go along with his idea so I can see what he's doing. On, and, __ __ __ __.
+Close
+
+Beat node LM21:
+Hey, good work. The logs you just found will be really helpful. We need all the data we can get to help figure out what's going on.
+what should I do next -> Hmm, just keep hacking __ __ nodes to see if you can ___ some more logs. Watch out for corporate ___ and don't forget what you learned using bit-man. L8r.
+Later
+
+Beat node PH29:
+Disarray: Hello again
+Hello -> Nice work on that last node. I was just coming to check it out myself. Guess the work here is done.
+What do you mean -> What do I mean? Just took care of the rest of the nodes in this area. Everything's totally clean.
+Are you sure about that? -> Look kid, I'm a much better hacker than you are. If I tell you that they're clean, they're clean. Check you later.
+See you around
+
+Beat node LM27:
+Superphreak: Nice work. You keep going at this rate, you may just be an elite agent yet. Welcome to level 3.
+Thanks. So what's up? How's the smart system? -> Still a wreck. We're going off-line like every few minutes. It's all I can do to keep the communications.
+Hang in there -> I'll do my best. With all these corrupt programs squirming around, I've got a feeling something big is going on.
+Like what? -> Like something that's going to damage the whole net. Keep looking around. I'll upgrade you to security level three now. (show level three warez)
+
+Beat node LM33:
+Superphreak: Wow. Good thing you checked out this node. This whole area's a mess.
+What do you mean? -> From what I can tell, the problem with program corruption is escalating.
+Who's doing it / what do we do? -> I'm not sure, but there's got to be some useful information in those logs you picked up. Since I can't seem to stay on the net for five minutes, I'll keep analyzing those logs.
+What about me? -> Work your way across these nodes. Somebody's hiding something from us. See if you can find out what it is. Welcome to the big time, newbie. Send me those logs so I can get starcted. Ready to recieve data.
+Send log data -> X
+
+Beat node PD34:
+Superphreak: Hey. What are you doing here? Didn't I tell you I cleaned this area up already?
+Well, there are still problems / did you miss that last databattle? -> Why don't you scram and let me take care of these nodes?
+Superphreak told me to check it out / looks like you need some help -> Hey, if you want, go ahead, keep hacking. You won't get very far before security beats you back to level one. Contact me when you get stuck.
+Close.
+
+Beat node PH35:
+Superphreak: ___ __ __ _ ___ Man, it's hard to stay connected. Nice work so far.
+What did you find out so far / thanks -> I used a neural net sequence to cross reference all of the logs you've given me so gar. I was able to trace the programs back to the node that originally spawned them onto the net.
+Any idea who's behind it? / where is it? -> ?
+-> You're doing an excelent job. Keep on Hacking and tell me what you find. I'll load the new node on your netmap now.
+
+Beat node DR31:
+Wintermutant: Hey partner! You really cleaned up those DR. D Nodes!
+THanks winter / what's up? -> I went sneaking around there after you left, and guess what? I found more traces of that wierd program.
+Any idea where it came from? Know what it's for yet? -> Totally! The traces had the same nightfall signature, so I did this special kind of search I made up, and I found something.
+What did you find? -> A nice piece of software somebody made. It's stashed away deep in sector 4 in a luck monkey node, not that they know it's there of course.
+Did you find anything else? -> Not yet, but I'm gonna keep searching for the nightfall hacker and see what else I find + I'll put the monkey node up on your map. C U partner.
+
+Beat node DR37:
+Superphreak: Hey, I can see which program disarray's getting. It has to do with rapid sumiltaneous network communication - Floodinga huge number of nodes at once.
+Why would he want that? -> I don't know. What would disarray be doing that would affect the whole net? He'd still have to have hacked every node individually to be able to do anything.
+What's the next step? -> Keep following him, and watch what he says. I'll keep up my trace and get back to you when I have more. L8r.
+
+Beat node LM39:
+Disarray: Terrific. Thanks for handling the security. I could've done it myself, but that saved me some time.
+No problem -> Well, once the program is put together, everything will be set for smart, see you soon.
+Close.
+
+Beat node PD32:
+Spinner: Hey, agent. You've been pretty hot lately. Looking for some extra work?
+I'm already on a couple of missions. / What's the operation? -> For a hacker of your talent, this should be a breeze. All you have to do is rescue some files from a PED exec who stole them.
+What do I get out of this / where's the node? -> Pharmhaus is offering a nice credit bonus as a reward. And the best part is, the node is the PED node that you just opened, the re-insurance database.
+Let me think about it / I'm in -> You know where to go. I'll contact you when you're finished.
+Close.
+
+Beat node CA312:
+Joana Boaventura: Well done, agent. You have accomplished your task, and I am happy to fulfill the terms of our argeement. Prepare to receive the software we promised.
+Receive
+
+Beat node PD310:
+Spinner: As always, an excelent job from the best agent smart's got. Here are the credits they promised. Keep in touch.
+500 credits, lol
+
+Beat node CA311:
+Joana Boaventura: I can see you're about to enter our sysadmin archives. Thank you for handling this mission. I wanted to give you some advice.
+Go ahead -> IF you are successful, we will reward you with a copy of some new software that we just developed. I'm told that's the proper way to motivate people such as yourself.
+Thanks, I guess -> Good luck agent
+Over and out.
+
+Beat node PH36:
+Superphreak: Excelent work. Welcome to level four.
+Thanks -> No problem. You earned it. Now try to get to that mysterious node I showed you. Something big is going down, and it looks like it's up to you to stop it.
+Do you think I can handle that? -> I know you can. And smart is counting on you. Get ready for the level four upgrade, and good luck.
+Ready for security level upgrade.
+
+Beat node DR38:
+Spinner: Hey, pal. Got another job for you?
+Who is it for / what's the job? -> It's PED, they always offer sweet credit rewards.
+Okay -> A memory unit in their privileged accounts node went bluescreen and needs to be shut down, quietly. Should be a walk in the park for someone with your ability.
+Let me think about it / sign me up -> I'll put the node up on your map.
+Recieve
+
+Beat node LM41:
+Wintermutant Wow, you're level 4! That's radical!! I knew you'd made it!
+THanks winter / what's up? -> I found something big! I finished my nightfall search and I found another secret stash!
+What did you find? -> Some kind of access codes for a really tight private security set-up. It's hidden away in the pharmhaus proprietary research node. Nasty defense software.
+OKay -> I'm putting the node up on your map now. I tired to get them myself, but I got rejected before I could even boot u. I'ts definitely nightfall though.
+Great work winter / I'll handle it from here. -> Thanks a lot. Kick butt! go smart!
+
+Beat node DR42:
+Superphreak: __ __ ___ It's __ harder and harder to __ __ but I've got important information __ __ ready?
+Go ahead -> I've finished my trace on disarray. Surprise surprise, he's the source __ __ __ corrupt programs and security screw-ups. Disarray's been infiltrating __ __ __ the web. I don't know why.
+What about the program he took? -> __ __ A well-guarded communications hub. He's using the stolen program __ __ access to all the nodes on the net __ __ I just don't understand the point. Any ideas?
+Does nightfall mean anything to you? -> nightfall? What does that mean? 
+Disarray's secret project? -> nightfall... that's it! Disarray's __ _ use his nightfall program to black out the net. Total midnight! __ __ __ crash the entire system! You have to stop him!!
+How? -> Get ___ __ his personal node, defeat the secuity, __ deactivate the nightfall program. And hurry, __ __ have much time!
+I'm on it.
+
+Beat node LM43:
+Wintermutant: That battle was sooo kewl! You rock! And managed to retrieve that experimental software.
+How does it work? -> The program should be ready to use, just plug and play. Oh, one more thing. I've been scanning these nodes. Be sure to get some level four software and be ready for some nasty security. Go get'em partner.
+Get Wizard.
+
+Beat node PD34:
+Joana Boaventura: Agent. I'm glad I found you. We've got a big problem here.
+What is it? -> We've found an undocumented node rerouting data to our system core. A security breach at this level is completely unacceptable. What are you going to do about it?
+I'm a little bit busy right now -> If you bypass our security we'll set up a link to the undocumented node for you. That should give you access to whoever is causing this chaos.
+Fine. -> Be warned, agent. The security measures in our core are particularly fierce. Good luck.
+Good luck to you too.
+
+Beat node PH45:
+Joana Boaventura: Congradulations, agent. You've opened up our system. As you can observe, we've established a link to that mysterious node. There is a problem however.
+What's wrong -> The node has an unknown security level. We don't have the access codes to reach it. Without those codes, the node is inaccessable.
+Don't worry. I'll get the codes. -> We'll maintain the current link for you. Good luck and thank you.
+
+Beat node PD46:
+Hello there, smart amateur.
+What do you want -> What's the matter? No time to chat with an old smart buddy?
+Smart kicked you out -> clearly their loss. So I guess by now you know the whole nightfall story, huh?
+Why are you trying to crash the net? -> Simple. The nightfall software I set up is going to take every single node off-line. That means I will control who gets access to the net and who doesn't.
+So -> People will be begging me to get back on-line. And I'll let them, just as long as they're willing to pay for the privelage. I'll make billions. What can I say - It's a brilliant plan.
+That will never happen -> Actually, it will. You don't have the codes to access my private node, and even if you did, you'd never beat my security. You're just a pathetic newbie. So why don't you stop wasting your time fighting me and go save up your credits to pay me off later?
+You're going down, disarray -> Suit yourself. It'll be fun to show you just how inferior you are. L8r loser.
+We'll see.
+
+Beat node PD47:
+Superphreak: Hey, I guess you found out __ __ get the access codes for disarray's node. Good work. I'm looking into how to stall the nightfall software. Gou go get the ___ codes and then de-activate the program. But first __ __ __ ___ what I know about this jerk.
+Tell me -> I'm sure disarray __ boobytrapped the node that has his access codes. I don't know __ __ __ when you access that node.
+Okay -> IF you've got any unfinished missions, complete them to __ __ extra cash. ___ __ back to minerva's and stock up on warez.
+Got it -> Disarray's tactics: I know that _______ __ coward and will use ranged programs to keep you ___ __ distance. Be prepared to see lots of radar and sonar along with __________ _____ ___ fought. I also know he deletes memory cells as a defense, so be sure ___
+thanks -> no problem. Did all of that make sense? __ ___ ____ pretty soon there will be no turning back.
+I'm ready -> alright, I'll be off-line for a while. Good luck ______ ___ codes, and be sure __ show disarray what it means to mess with smart.
+I'll do my best.
+
+Beat node PH49:
+Disarray: Bravo, Bravo! You h'ave honestly suprised me. I never thought a newbie like you could get this far.
+You're next disarray -> I'm affraid not. You see, you're too late. My grand finale is already at hand. Is everybody ready? I ope you're not affraid of the dark. Three, Two, One, nightfall!\
+no! -> 
+
+Beat end:
+Superphreak: Awesome job! That's how it's done!
+Thanks -> You stood up for smart when everything was on the line and saved the net from complete shutdown, at least for now. I'd say that makes you an elite agent.
+You're not so bad yourself -> Disarray aws so arrogant that he never disguised his upload location. Once nightfall was destroyed we traced his signal back to his home. Smart agents are on their way right now to apprehend him.
+What a loser -> It turns out he was working on this plan for years. All the time disarray was a smart agent, he was really just casing the network in preparation for his master plan. But that's all over now.
+So, what now? -> Well, until smart has another crisis for us to solve, take a break. You earned it. Kick back, relax, play some video games. :) cul8r.
+Who has time for video games!
+

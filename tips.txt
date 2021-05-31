@@ -1,0 +1,30 @@
+A short compilation of useful tips and tricks about Lua scripting on Roblox.
+
+## String Usage Tagging
+
+You may have invented or noticed this pattern before, since I've seen several people use it, and it seems like a lot of official Roblox scripts tend to follow it at this point. It's a rule on when to use doubles vs single quotes for your strings, adding additional contextual information:
+
+* **Double Quotes** when user (or you while debugging) is going to see that text on the screen.
+
+* **Single Quotes** when they aren't.
+
+```
+print("This is a textual string")
+gameStatus = 'inProgress' -- this is not
+```
+
+That is, using double quotes only for text that's actually... well.. *text*, and using single quotes for strings that are really *symbols*, and not text. *"But what if something is both?"* --- Then you should fix your code so that it isn't. Showing a symbolic string to the user is an exceptionally bad idea, because it cuts off the option of easily changing the display without changing your internal code (With the obvious exception of developmental tools like Plugins---which will definitely be showing some symbolic strings to the user).
+
+This both lets you know right away at first glance exactly what strings in your source code are textual, and which are symbols/names that you can't just go changing, and it discourages you from ever showing the user symbolic strings.
+
+## Defensive Coding: Quick Existance Asserts
+
+Here's a really nice pattern to avoid typo problems when you're dealing with any kind of field serialization where you may run into subtle and hard to debug issues if you make a misspelling somewhere:
+
+```
+local myVariable = serializedStuff.MyVariable or error("MyVariable Missing")
+```
+
+Now whenever `MyVariable` is missing due to a typo somewhere error, rather than silently failing in difficult to diagnose ways, you'll get a clear error right away. This is particularly useful with String variables that are supposed to represent some state, like `gameState = 'inProgress'`. Obviously this approch does not work for boolean variables---since if they're false you'll get an error even though they're present---but it's still a nice way to throw in a quick sanity check that something which should always be present actually is.
+
+## 
